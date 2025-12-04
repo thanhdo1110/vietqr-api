@@ -1,0 +1,20 @@
+{
+    "server": {
+        "port": 3000,
+        "host": "0.0.0.0"
+    },
+    "qr": {
+        "width": 1024,
+        "margin": 2,
+        "errorCorrectionLevel": "H"
+    },
+    "data": {
+        "refreshIntervalDays": 7,
+        "apiUrl": "https://api.vietqr.io/v2/banks",
+        "banksFile": "data/banks.json",
+        "logosDir": "data/logos"
+    },
+    "output": {
+        "dir": "output"
+    }
+}

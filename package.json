@@ -1,0 +1,14 @@
+{
+  "name": "vietqr-api",
+  "version": "1.0.0",
+  "description": "VietQR API Server - Tao ma QR chuyen khoan ngan hang",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "sync": "node -e \"const config = require('./config.json'); const { syncBankData } = require('./src/dataSync'); syncBankData(config);\""
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "qrcode": "^1.5.4"
+  }
+}
