@@ -419,9 +419,7 @@ crc16(payload) // Tính CRC16
 
 MIT License
 
-## Tác giả
-
-VietQR API Server
+ 
 
 ## Tham khảo
 
